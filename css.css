@@ -1,0 +1,54 @@
+body {
+  background-color: #202020;
+}
+
+div {
+  padding-top: 5%;
+  display: flex;
+  justify-content: center;
+}
+.answer{
+  padding: 0;
+}
+.answer li {
+  display: inline;
+  list-style: none;
+}
+
+input {
+  border: 1px solid white;
+  background-color: #45955c;
+  color: white;
+  border-radius: 15px;
+  width: 100px;
+  height: 100px;
+  transition: transform 0.2s ease-in-out;
+  margin: 0 5px;
+}
+
+input:hover {
+  background-color: #398cbf;
+  border: 2px solid white;
+  color: whitesmoke;
+  transform: rotate(20deg) translateY(-18px) scale(1.3);
+  border: 1px solid #202020;
+  box-shadow: 4px 4px 3px;
+  background-image:linear-gradient(to top, #398cbf, #45955c, rgba(255, 255, 0, 0.532));
+}
+
+.task li {
+  color: whitesmoke;
+  text-align: justify;
+  padding-right: 40px;
+}
+
+p{
+    line-height: 30px;
+}
+
+code{
+    background-color: whitesmoke;
+    color: #202020;
+    border-radius: 10px;
+    padding: 4px 7px;
+}
